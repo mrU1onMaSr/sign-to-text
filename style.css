@@ -1,0 +1,26 @@
+#topHed{
+ border-radius: 12px;
+ padding: 1px;
+ background-color: black; 
+ font-size: 2cm;  
+ margin: 25px;
+ color: whitesmoke;
+}
+
+.translation_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+label{
+    font-size: 2cm;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(20, 110, 255);
+  }
+
+  button{
+    background-color: rgb(167, 197, 255);
+  }

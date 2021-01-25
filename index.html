@@ -1,0 +1,51 @@
+<head>
+    <title>Sign To Speach</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  
+
+  <body>
+      <div class="container">
+          <center>
+
+            <h3 id="topHed"> Sign To Speach <br>
+
+                <span>&#128077;</span>
+                <span>&#128078;</span>
+                <span>&#128073;</span>
+            </h3>
+
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <label >webcam  </label>
+                <div id="camara"></div>
+                <br>
+                <button id="click" onclick="take()">Take Snapshot</button>
+              </div>
+
+              <div class="col-md-4 col-sm-12 col-xs-12">
+                <label >translation No.1</label>
+                <p id="result1" class="translation_name"></p>
+                <p id="emoji1" class="emoji"></p>
+                <label >translation No.2</label>
+                <p id="result2" class="translation_name"></p>
+                <p id="emoji2" class="emoji"></p>
+              </div>
+
+              <div class="col-md-4 col-sm-12 col-xs-12">
+                <label>Snapshot  </label>
+                <div id="res"></div>
+                <br>
+                <button id="identify" onclick="check()">identify</button>
+              </div>
+          </center>
+          <script src="main.js"></script>
+      </div>
+  </body>
